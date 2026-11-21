@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "**/*.md",
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.venv",
+    "**/venv",
+    "**/staticfiles",
+    "**/Smart-Recruitment-System-main"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false
+}

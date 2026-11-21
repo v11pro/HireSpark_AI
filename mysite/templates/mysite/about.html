@@ -1,0 +1,48 @@
+
+{% extends "mysite/base.html" %}
+
+
+{% load static %}
+
+{% block body %}
+     <!-- HOME -->
+    <section class="section-hero overlay inner-page bg-image"
+             style="background-image: url({% static 'mysite/images/hero_1.jpg' %});" id="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 class="text-white font-weight-bold">About</h1>
+                    <div class="custom-breadcrumbs">
+                        <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                        <span class="text-white"><strong>About</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+   
+    <section class="site-section">
+      
+        <h2>About AI-Powered Recruitment & Talent Marketplace</h2>
+    
+        <p>
+            The <strong>AI-Powered Recruitment & Talent Marketplace</strong> is an AI-powered platform
+            designed to automate resume screening and candidate ranking.
+            It uses <strong>GenAI</strong> to understand job descriptions and
+            resumes, extract relevant skills and experience, and provide
+            intelligent candidate-matching insights.
+        </p>
+    
+        <p>
+            Traditional <strong>TF-IDF and KNN</strong> techniques are combined
+            with GenAI-based semantic analysis to improve resume matching,
+            reduce recruiter effort, save time, and identify the most suitable
+            candidates efficiently.
+        </p>
+    
+    </section>
+
+{% endblock body %}
